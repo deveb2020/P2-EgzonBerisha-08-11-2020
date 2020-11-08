@@ -1,0 +1,98 @@
+html, body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+
+
+
+/******** NAVBAR ***********/
+
+.navDesktop 
+{
+    width: 100%;
+    height: 80px;
+}
+
+.Logo
+{
+    font-size: 2.5rem;
+    line-height: 80px;
+    padding: 0 30px;
+    color: #0065FC;
+}
+
+.navDesktop ul
+{
+    float: right;
+    line-height: 80px;
+    margin: 0px 30px;
+}
+
+.navDesktop ul li 
+{
+    display: inline-block;
+}
+
+.navDesktop ul li a
+{
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 10px;
+    padding: 20px 10px;
+}
+
+.hover {
+    color: #8a8a5c;
+}
+
+.sinscrireBlue 
+{
+    color: #0065FC;
+}
+
+.navDesktop ul li .hover:hover 
+{
+    border-top: 2px solid #0065FC;
+    color: #0065FC
+}
+
+.navDesktop ul li a:hover
+{
+    color: #0065FC;
+}
+
+
+
+
+/******** HEADER TEXT ***********/
+
+
+.HeaderText
+{
+    padding: 15px;
+}
+
+.HeaderText p 
+{
+    color: #7a7a52;
+}
+
+/******** SEARCH BOX ***********/
+
+
+/******** FILTRES ***********/
+
+
+/******** INFO TEXT ***********/
+
+
+/******** HEBERGEMENTS ***********/
+
+
+/******** ACTIVITES ***********/
+
+
+/******** FOOTER ***********/
