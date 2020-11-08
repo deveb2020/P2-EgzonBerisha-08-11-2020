@@ -80,10 +80,80 @@ html, body
     color: #7a7a52;
 }
 
+
+
 /******** SEARCH BOX ***********/
+
+.SearchBoxWrapper
+{
+    padding: 15px;
+}
+
+.SearchBoxWrapper, button, input, i {
+    padding: 10px;
+}
+
+.search {
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    border: #0065FC;
+}
+
+.fa-map-marker-alt { 
+ border: #f2f5ef 1px solid;
+ background-color: #F2F2F2; 
+ border-radius: 10px 0px 0px 10px;
+}
+
+.txtbox {
+    border-style: none;
+    border-bottom: 02px solid #f2f5ef;
+    border-top: 02px solid #f2f5ef;
+}
 
 
 /******** FILTRES ***********/
+
+.FiltreSpace
+{
+    padding: 15px;
+}
+
+.span1 {
+  border-radius: 30px;
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  margin-left: -1px;
+    margin: 10px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-color: darkgray;
+}
+
+.button2 {
+    border-radius: 30px;
+    border: 2px solid #DEEBFF;
+    padding: 14px 12px 14px 60px;
+    margin: 10px;
+    background-color: white;
+    border-left-color: white;
+
+}
+
+.fa-money-bill-wave-alt {
+    padding: 10px;
+}
+
+.fa-child {
+    padding: 14px 14px 8px 10px;
+}
+
+.FiltreSpace a {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 /******** INFO TEXT ***********/
