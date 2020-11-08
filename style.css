@@ -159,7 +159,140 @@ html, body
 /******** INFO TEXT ***********/
 
 
+.INFOTXT .fa-info, .textinfo {
+    display: inline-flex;
+}
+
+.fa-info {
+    border: 2px #DEEBFF solid;
+    border-radius: 50%;
+    padding: 5px 10px 5px 10px;
+    color: #0065FC;
+}
+
+
+
 /******** HEBERGEMENTS ***********/
+
+
+
+.HebergementsBOX
+{
+    width: 100%;
+    height: 650px;
+    background-color: coral;
+    padding-top: 10px;
+    display: flex;
+}
+
+.LeftBox 
+{
+    width: 65%;
+    height: 100%;
+    background-color: lightgrey;
+    overflow: hidden;
+    margin: auto;
+}
+
+.RightBox 
+{
+    width: 25%;
+    height: 100%;
+    background-color: lightgrey;
+    overflow: hidden; 
+    margin: auto;
+}
+
+.LineA ul li 
+{
+    list-style: none;
+    float: left;
+    width: 24%;
+    height: 250px;
+    background-color: white;
+    margin: 40px 30px 0px 40px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.LineB ul li
+
+    {
+    list-style: none;
+    float: left;
+    width: 24%;
+    height: 250px;
+    background-color: white;
+    margin: 40px 30px 0px 40px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.RightBox ul
+{
+   padding-inline-start: 0px; 
+}
+
+
+.RightBox ul li
+{
+    list-style: none;
+    width: 75%;
+    margin: 30px auto;
+    height: 150px;
+    background-color: red;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.LineA img 
+{
+    width: 98%;
+    height: 150px;
+    margin: 2px 2px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.LineB img 
+{
+    width: 98%;
+    height: 150px;
+    margin: 2px 2px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.LeftBox h3
+{
+    margin: 5px 5px;
+    padding: 0;
+}
+
+.LeftBox p
+{
+    margin: 5px 5px;
+    padding: 0;
+}
+
+.LeftBox span
+{
+    color: blue;
+    padding-left: 5px;
+}
+
+.RightBox img
+{
+    width: 40%;
+    height: 98%;
+    margin: 2px
+}
+
+
+
+
 
 
 /******** ACTIVITES ***********/
