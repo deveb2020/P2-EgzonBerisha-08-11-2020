@@ -189,18 +189,20 @@ html, body
 {
     width: 65%;
     height: 100%;
-    background-color: lightgrey;
+    background-color: #F2F2F2;
     overflow: hidden;
     margin: auto;
+    border-radius: 20px;
 }
 
 .RightBox 
 {
     width: 25%;
     height: 100%;
-    background-color: lightgrey;
+    background-color: #F2F2F2;
     overflow: hidden; 
     margin: auto;
+    border-radius: 20px;
 }
 
 .LineA ul li 
@@ -232,21 +234,25 @@ html, body
     box-shadow: 5px 5px 5px grey;
 }
 
-.RightBox ul
+
+.LeftBox h2
 {
-   padding-inline-start: 0px; 
+    margin: 15px 0px 0px 70px;
 }
 
 
-.RightBox ul li
+.RightBox .Box1 
 {
     list-style: none;
     width: 75%;
     margin: 30px auto;
     height: 150px;
-    background-color: red;
+    background-color: white;
     box-sizing: border-box;
     border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .LineA img 
@@ -287,13 +293,32 @@ html, body
 {
     width: 40%;
     height: 98%;
-    margin: 2px
+    margin: 2px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.Box2 span 
+{
+    padding: 0px 5px;
+    color: blue;
+    
+}
+
+.Box2 p,  .Box2 h3
+{
+    margin: 10px 5px;
 }
 
 
+.RightBox .TextAndIcon i
+{
+  margin-left: 30%;  
+}
 
-
-
+.RightBox .TextAndIcon
+{
+    margin: 15px;
+}
 
 /******** ACTIVITES ***********/
 
