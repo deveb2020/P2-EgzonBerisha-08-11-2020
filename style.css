@@ -2,7 +2,7 @@ html, body
 {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: white;;
 }
 
 a
@@ -185,7 +185,7 @@ a
 {
     width: 100%;
     height: 700px;
-    background-color: coral;
+    background-color: white;
     padding-top: 10px;
     display: flex;
 }
@@ -193,10 +193,11 @@ a
 .LeftBox 
 {
     width: 65%;
-    height: 100%;
+    height: 650px;
     background-color: #F2F2F2;
     overflow: hidden;
     margin: auto;
+    padding-bottom: 50px;
     border-radius: 20px;
 }
 
@@ -414,12 +415,222 @@ a
 }
 
 
+/******** MOBILE MODE ***********/
+/******** MOBILE MODE ***********/
+/******** MOBILE MODE ***********/
+
+
+
+
+/****** HIDE everything when the screen is LOWER than 680PX ********/
+
+
+@media screen and (min-width: 764px)
+{
+    .search .fa-search, .FiltreSpaceMobile, .ActivitéMobile, .RightBoxMobile
+    {
+        display: none;
+    }
+    
+}
 
 
 
 
 
+@media screen and (max-width: 764px)
+{
+   
+    
+    /******** NAVBAR ***********/
+    
+    
+    .hoverMobile1
+    {
+        position: absolute;
+        left: 0;
+        width: 45%;
+        top: 70px;
+        text-align: center;
+        border-bottom: 2px solid grey;
+    }
+    
+           .hoverMobile2
+    {
+        position: absolute;
+        right: 0;
+        top: 70px;
+        width: 45%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        border-bottom: 2px solid grey;
+        border-top: white;
+    }
+    
+    .hoverMobile1:hover
+    {
+        border-bottom: 2px solid #0065FC;
 
+    }
+    
+    .hoverMobile2:hover
+    {
+        border-bottom: 2px solid #0065FC;
+
+    }
+    
+    .navDesktop
+    {
+        margin-bottom: 90px;
+    }
+    
+    
+    /******** TEXT HEADER ***********/
+    
+    .HeaderText
+    {
+        text-align: center;
+        font-size: 1.3rem
+    }
+    
+    /******** SearchBOX  ***********/
+    
+    .SearchBoxWrapper
+    {
+        text-align: center;
+    }
+ 
+    .search
+    {
+        border-radius: 10px;
+    }
+    
+    .search b
+    {
+        display: none;
+    }
+    
+    .fa-search
+    {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    /******** Filtre  ***********/
+    
+    
+    .FiltreSpace
+    {
+        display: none; 
+        
+    }
+    
+    
+    .FiltreSpaceMobile, .INFOTXT
+    {
+        text-align: center;
+    }
+    
+    .FiltreSpaceMobile
+    {
+        margin-top: 15px;
+    }
+    
+    
+    
+    /******** Hébergements ***********/
+
+     .RightBoxMobile
+    {
+        width: 100%;
+    }
+    
+    .RightBoxDesktop
+    {
+        display: none;
+    }
+    
+    .LeftBox
+    {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    
+    .LineA ul li, .LineB ul li
+    {
+        width: 85%;
+        margin: 15px auto;
+    }
+    
+    
+    .ActivitésText, .ActivitésBOX 
+    {
+        display: none;
+    }
+
+    .ActivitéMobile
+    {
+        text-align: center;
+    }
+
+    
+    .ActivitéMobile li img
+    {
+        height: 80%;
+    }
+    
+
+    .FooterMobile
+    {
+        margin-top: 2900px;
+        display: inline-block;
+        height: auto;
+    }
+
+    .Apropos, .NosHebergements,.Assisatnace
+    {
+        padding-left: 50px;
+    }
+    
+    
+    #ActivitésText 
+    {
+        background-color: white;
+        box-shadow: 0px 0px white;
+        height: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    #ActivitésText h2
+    {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+    #AficcherPlus 
+    {
+        margin-top: 0;
+        background-color: white;
+        box-shadow: 0px 0px white;
+        height: 0px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
 
 
 

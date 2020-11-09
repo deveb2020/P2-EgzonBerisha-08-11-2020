@@ -18,8 +18,8 @@
 <nav class="navDesktop">
     <label class="Logo">Reservia</label>
     <ul>
-        <li><a class="hover" href="x">Hébergements</a></li>
-        <li><a class="hover" href="x">Activites</a></li>
+        <li><a class="hover hoverMobile1" href="x">Hébergements</a></li>
+        <li><a class="hover hoverMobile2" href="x">Activites</a></li>
         <li><a class="sinscrireBlue" href="x">S'inscrire</a></li>
     </ul>
 </nav>
@@ -41,7 +41,7 @@
        <i class='fas fa-map-marker-alt'></i>
        <input class="txtbox" id="site-search" name="q"
        aria-label="Search through site content">
-       <button class="search"><b>Rechercher</b></button>
+       <button class="search"><i class="fas fa-search"></i><b>Rechercher</b></button>
     </div>
 </div>
    
@@ -54,12 +54,26 @@
  <button class="button2"><a href="x">Economique</a></button>
  <span class="span1"><i class="fas fa-child"></i></span>
  <button class="button2"><a href="x">Familial</a></button>
- <span class="span1"><i class="fas fa-heart"></i></span>
+  <span class="span1"><i class="fas fa-heart"></i></span>
  <button class="button2"><a href="x">Romantique</a></button>
- <span class="span1"><i class="fas fa-dog"></i></span>
- <button class="button2"><a href="x">Animaux autorisé</a></button>
+ <span class="span1 IconMobile"><i class="fas fa-dog"></i></span>
+ <button class="button2 IconMobile"><a href="x">Animaux autorisé</a></button>
 </div>
-
+  
+    
+<div class="FiltreSpaceMobile">
+ <span>Filtre</span>
+ <span class="span1"><i class="fas fa-money-bill-wave-alt"></i></span>
+ <button class="button2"><a href="x">Economique</a></button>
+ <span class="span1"><i class="fas fa-child"></i></span>
+ <button class="button2"><a href="x">Familial</a></button>
+ <div>
+  <span class="span1"><i class="fas fa-heart"></i></span>
+ <button class="button2"><a href="x">Romantique</a></button>
+ <span class="span1 IconMobile"><i class="fas fa-dog"></i></span>
+ <button class="button2 IconMobile"><a href="x">Animaux autorisé</a></button>
+ </div>
+</div>
 
     
 
@@ -75,6 +89,38 @@
     
     
 <!----------------------------HEBERGEMENTS---------------------------------->
+   
+    
+     <div class="RightBox RightBoxMobile">
+            <h3 class="TextAndIcon">Les plus populaires<i class="fas fa-chart-line"></i></h3>
+            <div class="3BoxWrapper">
+                <div class="Box1">
+                    <img src="1.jpg">
+                    <div class="Box2">
+                     <h3>Hotel Le soleil du matin</h3>
+                     <p>Nuit à partir de <b>128€</b></p>
+                      <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>  
+                    </div>   
+                </div>
+                <div class="Box1">
+                    <img src="2.jpg">
+                     <div class="Box2">
+                     <h3>Au coeur de l'eau Chambres d'hotels</h3>
+                     <p>Nuit à partir de <b>71€</b></p>
+                      <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>  
+                    </div>               
+                </div>
+                <div class="Box1">
+                    <img src="3.jpg">
+                    <div class="Box2">
+                     <h3>Hôtel Tout bleu et Blanc</h3>
+                     <p>Nuit à partir de <b>68€</b></p>
+                      <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>  
+                    </div>                
+                </div>
+            </div>        
+        </div>
+    
     
     <div class="HebergementsBOX"> 
         <div class="LeftBox">
@@ -107,10 +153,28 @@
                     <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></li>                    
                  </ul> 
              </div>
+
+            
+            
+            
+            <div class="LineB ActivitéMobile">
+                 <ul>
+                    <li id="AficcherPlus"><h4>Afficher Plus</h4> 
+                    <li id="ActivitésText"><h2>Activites à Marseille</h2>
+                    <li><img src="3-.jpg"><h3>Iles du Frioul</h3>
+                    <li><img src="1-.jpg"><h3>Vieux Port</h3>
+                    <li><img src="4-.jpg"><h3>Parc National des Calanques</h3>
+                     <li><img src="5-.jpg"><h3>Notre-Dame-de-la-Garde</h3>
+                    <li><img src="6-.jpg"><h3>Parc Longchamp</h3>
+                    <li><img src="4-.jpg"><h3>Parc National des Calanques</h3>
+                 </ul> 
+             </div>
+            
+            
   
         </div>
         
-        <div class="RightBox">
+        <div class="RightBox RightBoxDesktop">
             <h3 class="TextAndIcon">Les plus populaires<i class="fas fa-chart-line"></i></h3>
             <div class="3BoxWrapper">
                 <div class="Box1">
@@ -144,6 +208,8 @@
 
 
 <!----------------------------ACTIVITES---------------------------------->
+    
+
     <h2 class="ActivitésText">Activités à Marseille</h2>
     <div class="ActivitésBOX">  
         <div class="Photo Photo2">
@@ -174,12 +240,12 @@
             <P>Parc Longchamp</P>
             </div>
         </div>       
-    </div>
+    </div>   
+     
     
-
 <!----------------------------FOOTER---------------------------------->
 
-            <div class="Footer">
+            <div class="Footer FooterMobile">
                 <div class="Apropos">
                   <a href="x"><H4>A propos</H4></a>
                   <a href="x"><p>Fonctionement du site</p></a>
@@ -198,7 +264,17 @@
                 </div>
             </div>
 
+    
+    
+    
 
+<!-----------------------MOBILE MODE---------------------------------->
+<!-----------------------MOBILE MODE---------------------------------->
+<!-----------------------MOBILE MODE---------------------------------->
+ 
+    
+    
+    
 
 
 
