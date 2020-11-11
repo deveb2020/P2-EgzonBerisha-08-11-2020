@@ -1,0 +1,95 @@
+@media screen and (max-width: 1000px) and (min-width: 660px) 
+{
+
+    
+    /******** HEADER TEXT ***********/
+    
+    .HeaderText
+    {
+        text-align: center;
+    }
+    
+    
+    /******** SEARCH BOX ***********/
+    
+    .insideBox
+    {
+        justify-content: center;
+    }
+    
+    /******** FILTRES ***********/
+    
+    .FiltreSpace
+    {
+       display: flex;
+       flex-direction: column;
+       width: 50%;
+       justify-content: center;
+        margin: auto;
+    }
+    
+    #filtreBorder 
+    {
+        padding: 0;
+        border-radius: 30px;
+        margin: 0.3rem 0;
+        border: 1px solid #DEEBFF;
+    }
+    
+        #filtreBorder:hover 
+    {
+       background-color: #DEEBFF;
+       color: blue;
+    }
+    
+    #filtreBorder i
+    {
+        padding: 1.3rem;
+        
+    }
+    
+    #filtreTitle
+    {
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    
+    /******** Info TEXT ***********/
+    
+    .INFOTXT
+    {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    /******** HEBERGEMENT ***********/
+    
+    .HebergementsBOX
+    {
+     display: flex;
+     flex-direction: column-reverse;  
+    }
+    
+    .BoxWrapper
+    {
+        display: inline-flex;
+    }
+    
+    
+    
+    .RightBox, .LeftBox
+    {
+        width: 90%;
+        margin-top: 1.5rem;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+}
