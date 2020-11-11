@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) and (min-width: 660px) 
+@media screen and (max-width: 1000px)
 {
 
     
@@ -42,7 +42,7 @@
        color: blue;
     }
     
-    #filtreBorder i
+    .PositionControle i
     {
         padding: 1.3rem;
         
@@ -52,8 +52,26 @@
     {
         text-align: center;
         margin-top: 1.5rem;
-        margin-bottom: 0.8rem;
     }
+    
+     div#PositionControle
+    {
+    width: 100%;
+    display: flex; 
+    flex-wrap:wrap; 
+    }
+    
+    div#PositionControle label 
+    {
+        margin: 0.5rem 0.8rem;
+    }
+    
+    div#PositionControle span
+    {
+        margin-right: 0.5rem;
+    }
+    
+    
     
     
     /******** Info TEXT ***********/
@@ -77,14 +95,85 @@
         display: inline-flex;
     }
     
-    
-    
     .RightBox, .LeftBox
     {
-        width: 90%;
-        margin-top: 1.5rem;
-        
+        width: 100%;
+        margin-top: 1.5rem;   
     }
+    
+    .LeftBox
+    {
+        background-color: white;
+    }
+    
+    .LineA ul li, .LineB ul li
+    {
+        margin: 0.4rem;
+     
+    }
+    
+    
+    /******** ACTIVITES ***********/
+
+    .Activité h2
+    {
+        text-align: center;
+    }
+    
+    
+    .grid
+    {
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    .grid a
+    {
+        width: 60%;
+        margin: auto;
+        height: 15rem;
+    }
+    
+        .grid_child_01 .grid_h3-title
+    {
+        position: relative;
+        top: 75.5%;
+    }
+    
+    .grid_child_03 .grid_h3-title
+    {
+        position: relative;
+        top: 75.5%;
+    }
+  
+    .grid_child_04 .grid_h3-title
+    {
+        position: relative;
+        top: 75.5%;
+    }
+    
+     .grid_child_06 .grid_h3-title
+    {
+        position: relative;
+        top: 75.5%;
+    }
+    
+    /******** FOOTER ***********/
+    
+    
+    .Footer
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        display: flow-root;
+    }
+    
+    .Apropos, .NosHebergements, .Assisatnace
+    {
+        margin-left: 3rem;
+    }
+    
     
     
     

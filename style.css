@@ -196,7 +196,6 @@ a
 .HebergementsBOX
 {
     width: 100%;
-    height: 700px;
     background-color: white;
     padding-top: 10px;
     display: flex;
@@ -205,7 +204,6 @@ a
 .LeftBox 
 {
     width: 65%;
-    height: 650px;
     background-color: #F2F2F2;
     overflow: hidden;
     margin: auto;
@@ -216,7 +214,6 @@ a
 .RightBox 
 {
     width: 25%;
-    height: 100%;
     background-color: #F2F2F2;
     overflow: hidden; 
     margin: auto;
@@ -257,7 +254,7 @@ a
 {
     list-style: none;
     width: 85%;
-    margin: 30px auto;
+    margin: 3.5rem auto;
     height: 140px;
     background-color: white;
     box-sizing: border-box;
@@ -408,7 +405,6 @@ a
 .Activité
 {
     width: 100%;
-    height: 31.25rem;
     margin-top: 4.063rem;
     margin-bottom: 3.75rem;
     border-radius: 0.938rem;
@@ -433,7 +429,7 @@ a
 
 .grid_child_01
 {
-    background: center no-repeat url(../1-.jpg);
+    background: center no-repeat url(../Photos/1-.jpg);
     grid-column-start: 1;
     grid-row-end:  span 2;
 }
@@ -457,7 +453,7 @@ a
 
 .grid_child_02
 {
-    background: center no-repeat url(../2-.jpg);
+    background: center no-repeat url(../Photos/2-.jpg);
     grid-column-start: 2;
 }
 
@@ -471,7 +467,7 @@ a
 
 .grid_child_03
 {
-    background: center no-repeat url(../3-.jpg);
+    background: center no-repeat url(../Photos/3-.jpg);
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -485,7 +481,7 @@ a
 
 .grid_child_04
 {
-    background: center no-repeat url(../4-.jpg);
+    background: center no-repeat url(../Photos/4-.jpg);
     grid-column-start: 3;
     grid-row-end: span 2;
 }
@@ -498,7 +494,7 @@ a
 
 .grid_child_05
 {
-    background: center no-repeat url(../5-.jpg);
+    background: center no-repeat url(../Photos/5-.jpg);
     grid-column-start: 4;
     grid-row-start: 1;
 }
@@ -511,7 +507,7 @@ a
 
 .grid_child_06
 {
-    background: center no-repeat url(../6-.jpg);
+    background: center no-repeat url(../Photos/6-.jpg);
     grid-column-start: 4;
     grid-row-start: 2;
 }
@@ -533,7 +529,6 @@ a
 
 .Footer {
     width: 100%;
-    height: 250px;
     background-color: #F2F2F2;
     display: flex;
     margin-top: 50px;
