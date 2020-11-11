@@ -19,59 +19,43 @@ a
 /******** NAVBAR ***********/
 
 
-.navDesktop 
+#header_div_1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  grid-template-rows: 3.875rem;
+  margin-top: 0rem;
+}
+
+#header_div_1 > img{
+  padding: 0.625rem 1.5rem;
+}
+
+.nav_link_03 strong{
+  font-weight: 700;
+}
+
+.nav_link_01, .nav_link_02, .nav_link_03 {
+  width: 100%;
+  text-align: center;
+  padding-top: 1.25rem;
+  margin-top: 0rem;
+}
+
+.nav_link_01:hover, .nav_link_02:hover, .nav_link_03:hover{
+  border-top: 0.188rem #0065fc solid;
+  cursor: pointer;
+}
+
+.nav_link_01, .nav_link_02, .nav_link_03{
+  border-top: 0.188rem #fff solid; 
+  cursor: pointer;
+}
+
+strong#inscrire
 {
-    width: 100%;
-    height: 80px;
+  color: #6099f0;
 }
-
-#Logo
-{
-    font-size: 2.7rem;
-    line-height: 80px;
-    padding: 0 30px;
-    color: #0065FC;
-    font-family: 'Rancho', cursive;
-
-
-}
-
-.navDesktop ul
-{
-    float: right;
-    line-height: 80px;
-    margin: 0px 30px;
-}
-
-.navDesktop ul li 
-{
-    display: inline-block;
-}
-
-.navDesktop ul li a
-{
-    text-decoration: none;
-    font-size: 1.1rem;
-    margin: 0 10px;
-    padding: 20px 10px;
-}
-
-.hover {
-    color: blakc;
-}
-
-.sinscrireBlue 
-{
-    color: #0065FC;
-}
-
-.navDesktop ul li:hover 
-{
-    border-top: 2px solid #0065FC;
-    color: #0065FC
-}
-
-
 
 
 
@@ -162,7 +146,10 @@ a
     border-color: #DEEBFF;
 }
 
-
+#filtreBorder:hover
+{
+    background-color: #DEEBFF;
+}
 
 
 /******** INFO TEXT ***********/
@@ -234,6 +221,11 @@ a
     box-shadow: 5px 5px 5px #d4d2d2;
 }
 
+.LineA ul li:hover, .LineB ul li:hover
+{
+    box-shadow: 5px 5px 8px 5px #b2b5b8;
+}
+
 .LineB ul li
 
     {
@@ -283,6 +275,11 @@ a
 .etoile span i
 {
     padding: 0.100rem;
+}
+
+.AfficherPlus
+{
+    display: none;
 }
 
 .etoileRight span
@@ -387,6 +384,15 @@ a
     margin-left: 0.3rem
 }
 
+div.AfficherPlus
+{
+    margin-top: 1rem;
+}
+
+.Box1:hover
+{
+    box-shadow: 6px 6px 5px #b7babd;
+}
 
 /******** ACTIVITES ***********/
 /******** ACTIVITES ***********/
@@ -426,6 +432,12 @@ a
     border-radius: 0.938rem;
     box-shadow: 0.188rem 0.188rem 1rem #bebebe;
 }
+
+.grid a:hover
+{
+    box-shadow: 5px 5px 5px 5px #b7babd;
+}
+
 
 .grid_child_01
 {
@@ -539,6 +551,15 @@ a
  margin: auto;
 }
 
+
+@media screen and (min-width: 1000px)
+{
+   .fa-search
+{
+    display: none;
+}
+    
+}
 
 
 

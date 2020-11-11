@@ -1,6 +1,11 @@
 @media screen and (max-width: 1000px)
 {
 
+
+    
+    
+    
+    
     
     /******** HEADER TEXT ***********/
     
@@ -17,13 +22,24 @@
         justify-content: center;
     }
     
+        .search b
+    {
+        display: none;
+    }
+    
+    .search
+    {
+        padding: 0.2rem;
+        border-radius: 7px 7px 7px 7px;
+    }
+    
+    
     /******** FILTRES ***********/
     
     .FiltreSpace
     {
        display: flex;
-       flex-direction: column;
-       width: 50%;
+       flex-direction: column; 
        justify-content: center;
         margin: auto;
     }
@@ -118,6 +134,7 @@
     .Activité h2
     {
         text-align: center;
+        margin: 1.5rem;
     }
     
     
@@ -129,8 +146,8 @@
     
     .grid a
     {
-        width: 60%;
-        margin: auto;
+        width: 87%;
+        margin: 0 auto;
         height: 15rem;
     }
     

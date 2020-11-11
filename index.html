@@ -19,13 +19,11 @@
 
 <!----------------------------NAVBAR---------------------------------->
     
-<nav class="navDesktop">
-    <label id="Logo">Reservia</label>
-    <ul>
-        <li class="Placement1"><a class="hover " href="x">Hébergements</a></li>
-        <li class="Placement1"><a class="hover " href="x">Activites</a></li>
-        <li><a class="sinscrireBlue" href="x">S'inscrire</a></li>
-    </ul>
+<nav id="header_div_1">
+  <img src="Photos/Reservia@3x.png" alt="logo reservia" width="97" height="45">
+  <span class="nav_link nav_link_01"><a href="#hebergement">Hébergements</a></span>
+  <span class="nav_link nav_link_02"><a href="#activite">Activités</a></span>
+  <span class="nav_link nav_link_03"><a href="#i"><strong id="inscrire">S'inscrire</strong></a></span>
 </nav>
     
     
@@ -45,7 +43,7 @@
        <i class='fas fa-map-marker-alt'></i>
        <input class="txtbox" id="site-search" name="q"
        aria-label="Search through site content" placeholder="Marseille, France">
-       <button class="search"><b>Rechercher</b></button>
+       <button class="search"><i class="fas fa-search"></i><b>Rechercher</b></button>
     </div>
 </div>
    
@@ -53,35 +51,42 @@
 <!----------------------------FILTRES---------------------------------->
     
  <div class="FiltreSpace">
-     
- <span id="filtreTitle" ><b>Filtre</b></span>
    <div id="PositionControle">
+   <span id="filtreTitle" ><b>Filtre</b></span>
    <label id="filtreBorder">
+    <a href="#"> 
     <span>
       <i class=" span1 fas fa-money-bill-wave-alt"></i>
     </span>  
     <span id="filtreName">Economique</span>
+    </a>  
   </label> 
     
  <label id="filtreBorder">
+    <a href="#">
     <span>
       <i class=" span1 fas fa-child"></i>
     </span>  
     <span id="filtreName">Familial</span>
+    </a>  
   </label> 
     
   <label id="filtreBorder">
+    <a href="#">
     <span>
       <i class=" span1 fas fa-heart"></i>
     </span>  
     <span id="filtreName">Romantique</span>
+    </a>  
   </label> 
     
     <label id="filtreBorder">
+    <a href="#">
     <span>
       <i class=" span1 fas fa-dog"></i>
     </span>  
     <span id="filtreName">Animaux autorisé</span>
+    </a>  
   </label>
   </div>
 </div>       
@@ -96,8 +101,10 @@
     
             
 <div class="INFOTXT">
+    <div class="textWrapper">
     <i class="fas fa-info"></i>
     <p class="textinfo">Plus de 5000 logements sont disponibles dans cette ville</p>
+    </div>
 </div>
     
     
@@ -111,8 +118,8 @@
             <h2>Hébergements à Marseille</h2>
              <div class="LineA">
                  <ul>
-                    <a href="#">
-                    <li><img src="Photos/aw-creative-VGs8z60yT2c-unsplash.jpg"> 
+                    
+                    <li><a href="#"><img src="Photos/aw-creative-VGs8z60yT2c-unsplash.jpg"> 
                     <p><b>Auberge la Cannebiere</b></p>   
                     <p>Nuit à partir de <b>25€</b></p>
                     <div class="etoile">
@@ -122,8 +129,9 @@
                        <span class="star_grey_filling"><i class="fas fa-star"></i></span>
                        <span class="star_grey_filling"><i class="fas fa-star"></i></span>
                     </div>
-                    </li>
                     </a>
+                    </li>
+                    
                     <a href="#">
                     <li><img src="Photos/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                     <p><b>Hôtel du port</b></p>
@@ -188,10 +196,11 @@
                        <span class="star_blue_filling"><i class="fas fa-star"></i></span>
                     </div>
                     </a>
-                 </ul> 
+                 </ul>
              </div>
+        <p class="AfficherPlus">Afficher plus</p> 
         </div>
-        
+
         
         <div class="RightBox">
             <div class="HeaderBox">
