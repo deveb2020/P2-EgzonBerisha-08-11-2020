@@ -99,11 +99,20 @@ strong#inscrire
         text-align: left;
     }
     
-    .FiltreSpace
+    #filtreTitle 
     {
-        width: 100%;
+        text-align: left!important;
     }
     
+    #filtreBorder 
+    {
+        width: auto;
+    }
+    
+    .SearchBoxWrapper
+    {
+        margin: auto;
+    }
 /******** HEBERGEMENTS ***********/
       
 .BoxWrapper
@@ -122,12 +131,12 @@ strong#inscrire
 {
     display: flex;    
     flex-direction: column; 
-    padding: 0;
+    padding: 20px;
 }
     
  .LineA ul li, .LineB ul li
 {
-    width: 85%;
+    width: 95%;
 }
     
  .LeftBox h2

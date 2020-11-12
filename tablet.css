@@ -48,7 +48,7 @@
     {
         padding: 0;
         border-radius: 30px;
-        margin: 0.3rem 0;
+        margin: 0.3rem 0.3trm;
         border: 1px solid #DEEBFF;
     }
     
@@ -58,16 +58,12 @@
        color: blue;
     }
     
-    .PositionControle i
-    {
-        padding: 1.3rem;
-        
-    }
-    
+
     #filtreTitle
     {
         text-align: center;
-        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        margin-top: 1.2rem;
     }
     
      div#PositionControle
