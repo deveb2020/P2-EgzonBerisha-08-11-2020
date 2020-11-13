@@ -14,10 +14,9 @@ a
 }
 
 
-
-/******** NAVBAR ***********/
-/******** NAVBAR ***********/
-/******** NAVBAR ***********/
+/******** Navbar ***********/
+/******** Navbar ***********/
+/******** Navbar ***********/
 
 
 #header_div_1{
@@ -125,7 +124,7 @@ strong#inscrire
     display: flex;
 }
 
-#filtreTitle
+.filtreTitle
 {
     margin-top: 0.5rem;
 }
@@ -145,7 +144,7 @@ strong#inscrire
     
 }
 
-#filtreBorder
+.filtreBorder
 {
     border: 2px solid black;
     margin: 0 0.8rem;
@@ -156,7 +155,7 @@ strong#inscrire
     border-color: #DEEBFF;
 }
 
-#filtreBorder:hover
+.filtreBorder:hover
 {
     background-color: #DEEBFF;
 }

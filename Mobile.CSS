@@ -92,19 +92,19 @@ strong#inscrire
 }
 
     
-.textinfo
+    .textinfo
     {
         width: 90%;
         margin: 0;
         text-align: left;
     }
     
-    #filtreTitle 
+    .filtreTitle 
     {
         text-align: left!important;
     }
     
-    #filtreBorder 
+    .filtreBorder 
     {
         width: auto;
     }
