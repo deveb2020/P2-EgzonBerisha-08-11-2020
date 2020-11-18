@@ -450,7 +450,7 @@ div.AfficherPlus
 
 .grid_child_01
 {
-    background: center no-repeat url(../Photos/1-.jpg);
+    background: center no-repeat url(./Photos/1-.jpg);
     grid-column-start: 1;
     grid-row-end:  span 2;
 }
@@ -474,7 +474,7 @@ div.AfficherPlus
 
 .grid_child_02
 {
-    background: center no-repeat url(../Photos/2-.jpg);
+    background: center no-repeat url(./Photos/2-.jpg);
     grid-column-start: 2;
 }
 
@@ -488,7 +488,7 @@ div.AfficherPlus
 
 .grid_child_03
 {
-    background: center no-repeat url(../Photos/3-.jpg);
+    background: center no-repeat url(./Photos/3-.jpg);
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -502,7 +502,7 @@ div.AfficherPlus
 
 .grid_child_04
 {
-    background: center no-repeat url(../Photos/4-.jpg);
+    background: center no-repeat url(./Photos/4-.jpg);
     grid-column-start: 3;
     grid-row-end: span 2;
 }
@@ -515,7 +515,7 @@ div.AfficherPlus
 
 .grid_child_05
 {
-    background: center no-repeat url(../Photos/5-.jpg);
+    background: center no-repeat url(./Photos/5-.jpg);
     grid-column-start: 4;
     grid-row-start: 1;
 }
@@ -528,7 +528,7 @@ div.AfficherPlus
 
 .grid_child_06
 {
-    background: center no-repeat url(../Photos/6-.jpg);
+    background: center no-repeat url(./Photos/6-.jpg);
     grid-column-start: 4;
     grid-row-start: 2;
 }
