@@ -68,10 +68,14 @@ strong#inscrire
 
 .nav_link_03:hover
 {
-  border-top: 1px solid white;
+  border-top: 0.188rem white solid;
   cursor: pointer;
 }
     
+.txtbox
+    {
+        width: 90%;
+    }
     
     
 /******** INFO TEXT ***********/
