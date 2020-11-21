@@ -225,7 +225,7 @@ strong#inscrire
     background-color: white;
     margin: 40px 0px 0px 20px;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 2px solid #fffdfc;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #d4d2d2;
 }
@@ -245,7 +245,7 @@ strong#inscrire
     background-color: white;
     margin: 40px 0px 0px 20px;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 2px solid #fffdfc;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #d4d2d2;
 }
@@ -259,7 +259,7 @@ strong#inscrire
     height: 140px;
     background-color: white;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 2px solid #fffdfc;
     border-radius: 20px;
     display: flex;
     box-shadow: 5px 5px 5px #d4d2d2;
