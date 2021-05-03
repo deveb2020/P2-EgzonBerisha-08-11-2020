@@ -14,6 +14,6 @@ The main goal of this projects was to create a fully responsive UI.
 - I use [ Media Queries ] to give different CSS property values to an element through different screen sizes
 - I use [ Flexbox ] to adapt elements through different screen sizes
 
-## Github Pages
+## View the project
 
-This project is online and you can find it by clicking on this link: [ https://deveb2020.github.io/P2-EgzonBerisha-08-11-2020/ ]
+This project is online and and it is deployed using Github Pages, to see the website click this link: [ https://deveb2020.github.io/P2-EgzonBerisha-08-11-2020/ ]
