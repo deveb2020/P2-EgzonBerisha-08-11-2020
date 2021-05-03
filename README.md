@@ -1,4 +1,4 @@
-# Reservia
+# Reservia - P2
 
 ## _This is an online vacation booking platform UI-only_
 
